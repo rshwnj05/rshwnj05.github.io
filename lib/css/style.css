@@ -1,0 +1,158 @@
+h1 {
+  text-align: center;
+  font-style: oblique;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+
+body {
+  color: white;
+  font-size: 16px;
+}
+
+.bg-color{
+  background: grey;
+}
+
+#jumbotron1 {
+  background: url('http://cadmek.fi/img/content-image.jpg') no-repeat center center;
+  background-size: cover;
+  font-style: oblique;
+  text-align: center;
+  height: 600px;
+  border: 5px solid lightblue;
+}
+
+#jumbotron2 {
+  background: url("../images/xsect.jpg")no-repeat center center;
+  background-size: cover;
+  background-color: grey;
+  font-style: oblique;
+  text-align: center;
+  height: 600px;
+  border: 50px solid black;
+  padding-top: 10px;
+}
+
+#welcome1 {
+  color: white;
+  font-style: normal;
+}
+
+#welcome2 {
+  color: black;
+  font-style: normal;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #818a91;
+  content: "|";
+}
+
+.breadcrumb {
+  padding: 0.75rem 1rem;
+  margin-bottom: 2rem;
+  list-style: none;
+  background-color: #eceeef;
+  border-radius: 0.25rem;
+  float: right;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.navbar-brand img {
+  width: 200px;
+  overflow: visible;
+  display: block;
+  position: absolute;
+  z-index: 100;
+}
+
+.grey {
+  background: #dbd5cd;
+  margin-top:10px;
+}
+
+.white {
+  background: grey;
+}
+
+.carousel {
+  min-height: 500px;
+  height:auto;
+}
+
+.carousel>.carousel-inner>.carousel-item>img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 275px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.info {
+  position: absolute;
+  z-index: 15;
+  top: 600px;
+  left: 100px;
+}
+
+.darkblue {
+  background: #007a7f;
+  color: white;
+}
+
+.lightblue {
+  background: #00a0a9;
+  color: white;
+}
+
+.card .btn {
+  width: 100%
+}
+
+.darkgreen {
+  background: #5f863d;
+  color: white;
+}
+
+.lightgreen {
+  background: #89b559;
+  color: white;
+}
+
+.darkorange {
+  background: #db6635;
+  color: white;
+}
+
+.lightorange {
+  background: #f7743f;
+  color: white;
+}

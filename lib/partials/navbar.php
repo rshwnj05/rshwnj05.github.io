@@ -19,8 +19,5 @@
       </div>
     </li> -->
   </ul>
-  <form class="form-inline float-xs-right">
-    <input class="form-control" type="text" placeholder="Search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
+  
 </nav>

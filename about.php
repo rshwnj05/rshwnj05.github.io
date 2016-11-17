@@ -11,7 +11,7 @@
     <?php require_once("lib/partials/gears.php");?>
 
     <section>
-      <div class="jumbotron" id="xsect">
+      <div class="jumbotron" id="jumbotron1">
         <h1 class="animated lightSpeedIn" id="welcome2">AS-BUILT DESIGN/CONSTRUCTION</h1>
       </div>
     </section>

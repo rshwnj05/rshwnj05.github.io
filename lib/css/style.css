@@ -22,7 +22,7 @@ body {
 }
 
 #jumbotron2 {
-  background: url("../images/mech1.png") no-repeat center center;
+  background: url("../images/gears.jpg") no-repeat center center;
   color: red;
   background-size: cover;
   font-family: 'Vast Shadow', cursive;
@@ -64,6 +64,15 @@ body {
   border: 5px solid black;
 }
 
+#welcome1 {
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+}
+
+#welcome2 {
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+}
 
 .navbar-brand img {
   width: 200px;

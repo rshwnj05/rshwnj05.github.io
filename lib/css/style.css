@@ -1,13 +1,5 @@
 h1 {
-  text-align: center;
-  font-style: oblique;
-  color: black;
-}
-
-h2 {
-  text-align: center;
-  font-style: oblique;
-  color: red;
+  color: blue;
 }
 
 body {
@@ -21,32 +13,22 @@ body {
 
 #jumbotron1 {
   background: url('http://cadmek.fi/img/content-image.jpg') no-repeat center center;
+  color: red;
   background-size: cover;
-  font-style: oblique;
+  font-family: 'Vast Shadow', cursive;
   text-align: center;
   height: 600px;
   border: 5px solid lightblue;
 }
 
 #jumbotron2 {
-  background: url("lib/partials/gears.php")no-repeat center center;
+  background: url('http://cadmek.fi/img/content-image.jpg') no-repeat center center;
+  color: red;
   background-size: cover;
-  background-color: grey;
-  font-style: oblique;
+  font-family: 'Vast Shadow', cursive;
   text-align: center;
   height: 600px;
-  border: 50px solid black;
-  padding-top: 10px;
-}
-
-#welcome1 {
-  color: white;
-  font-style: normal;
-}
-
-#welcome2 {
-  color: black;
-  font-style: normal;
+  border: 5px solid lightblue;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -72,6 +54,16 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+#xsect {
+  background: url("../images/xsect.jpg")no-repeat center center;
+  background-size: cover;
+  font-style: oblique;
+  text-align: center;
+  height: 600px;
+  border: 5px solid black;
+}
+
 
 .navbar-brand img {
   width: 200px;
@@ -155,4 +147,4 @@ body {
 .lightorange {
   background: #f7743f;
   color: white;
-}
+  }

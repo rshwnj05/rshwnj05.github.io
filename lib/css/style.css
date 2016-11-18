@@ -1,5 +1,8 @@
 h1 {
-  color: blue;
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 64px;
 }
 
 body {
@@ -9,6 +12,28 @@ body {
 
 .bg-color{
   background: grey;
+}
+
+.atxt {
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 16px;
+}
+
+.back {
+  color: red;
+  background-color: red;
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 16px;
+}
+
+.ctxt {
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 16px;
 }
 
 #jumbotron1 {
@@ -71,11 +96,12 @@ body {
 
 #welcome2 {
   color: red;
+  background-size: cover;
   font-family: 'Vast Shadow', cursive;
 }
 
 .navbar-brand img {
-  width: 200px;
+  width: 50px;
   overflow: visible;
   display: block;
   position: absolute;

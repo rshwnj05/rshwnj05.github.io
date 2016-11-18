@@ -5,6 +5,13 @@ h1 {
   font-size: 64px;
 }
 
+h3 {
+  color: red;
+  font-family: 'Vast Shadow', cursive;
+  text-align: center;
+  font-size: 64px;
+}
+
 body {
   color: white;
   font-size: 16px;
@@ -174,4 +181,8 @@ body {
 .lightorange {
   background: #f7743f;
   color: white;
+  }
+
+  #text4 {
+    color: red;
   }
